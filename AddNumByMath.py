@@ -1,8 +1,12 @@
-print("please enter the number!!!! ")
-n=int(input())
+def check_user_input(input):
+    try:
+        n=int(input)
+        print(n/2 * (n+1))
+    except ValueError:
+        print("Idiot,enter a number!!!!")
 
-
-print(n/2 * (n+1))
+n=input("Enter the Last Number ")
+check_user_input(n)
 
 
 
