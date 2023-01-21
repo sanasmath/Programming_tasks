@@ -1,8 +1,26 @@
-''''print("please enter the number!!!! ")
-n=int(input())
-'''
+while True:
+        def k(input):
+         try:
+          n=int(input)
+          for x in range(n):
+           n = n+x
+           num=[n]
+          print(sum(num))
+         except ValueError:
+          print("Idiot,enter a number!!!!")
 
-for x in range(6):
-    for j in range(x+6):
+        n=input("Enter the Last Number ")
+        k(n)
 
-     print(j)
+
+
+
+
+
+
+
+
+
+
+
+
