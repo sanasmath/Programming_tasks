@@ -1,5 +1,4 @@
-while True:
-        def k(input):
+def k(input):
          try:
           n=int(input)
           for x in range(n):
@@ -9,9 +8,13 @@ while True:
          except ValueError:
           print("Idiot,enter a number!!!!")
 
-        n=input("Enter the Last Number ")
+while True:
+    n=input("Enter the Last Number "" ")
+    if n=="f":
+        print("Stoped")
+        break
+    else:
         k(n)
-
 
 
 
